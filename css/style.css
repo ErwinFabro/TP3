@@ -717,14 +717,17 @@ footer button{
 @media(max-width: 480px){
 
     body {
-        background-color:#fafafa;
+        background-color: #fafafa;
+        
     }
     .foot {
-        background-color: transparent;
+        background-color: #fafafa;
         display: flex;
         flex-direction: column;
       align-items: center;
-      padding: 10%;
+      justify-content: start;
+      font-size: 0.8em;
+      
       
 
     }
@@ -742,9 +745,9 @@ footer button{
     font-size: 2em;
    }
 
-.footer2 {
+    .footer2 {
     display: none;
-}
+    }
     
     .head{
         display: none;
@@ -781,76 +784,9 @@ footer button{
     .sectionUno {
         display: none;
     }
-    .logoContainer{
-        display: none;
-        width: 20em;
-    }
-    .sectionUnoTitle  {
-        color:#3952B6
-    }
+  
 }
 
 @media(max-width: 768px){
-    .head {
-        display: flex;
-    }
-
-
-    nav {
-        background-color: transparent;
-    }
-
-    footer {
-        display: none;
-        background-color: transparent;
-    }
     
-    body {
-background-color: transparent;
-    }
-
-    .sectionUno {
-        display: block
-
-    }
-    .sectionDos {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        .sectionDosgalleryCarrusel {
-            background-color: transparent;
-            display: flex;
-            flex-direction: column;
-        }
-    }
-    .sectionTres {
-      width: 100%;
-    }
-
-    .sectionCuatro {
-        display: none;
-    }
-
-    .sectionCinco {
-        display: none;
-    }
-
-    .sectionSeis {
-        display: none;
-    }
-
-    .sectionSiete {
-        display: none;
-    }
-
-    .sectionUno {
-        display: none;
-    }
-    .logoContainer{
-        display: none;
-        width: 20em;
-    }
-    .sectionUnoTitle  {
-        color:#3952B6
-    }
   } 
